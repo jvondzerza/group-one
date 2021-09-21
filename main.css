@@ -28,12 +28,12 @@
 .pepper {
     width:100px;
     height: 400px
-    float: left;
+    float: left;    
 }
 .container {
     display: flex;
     flex-direction: column;
     width: 1500px;
-    height: 1500px;
+    height: 1000px;
     background-color: black;
 }
