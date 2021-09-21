@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu ul{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    height :55px;
+    line-height: 55px;
+    background: rgba(0, 0, 0,0.2);
+    list-style-type: none;
+    margin: 15px auto;
+
+}
+.menu ul li{
+    width: 100%;
+}
+.menu ul li a{
+    position:relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+.menu ul li a::before{
+    content: '';
+position: absolute;
+top: 0;
+left :0;
+width: 100%;
+height: 6px;
+background: rgb(147, 189, 199)));
+transition: all 2s ease-in-out;
+}
+.menu ul li a:hover::before{
+    width: 100%; 
+    transition: all 2s ease-in-out;
+}
+.menu ul li a::after{
+content: '';
+position: absolute;
+bottom: 0;
+right :0;
+width: 100%;
+height: 6px;
+background: rgb(0, 212, 81);
+transition: ease-in;
+}
+.menu ul li a:hover::after{
+    width: 100%; 
+    transition: ease-in ;
+}
+.section1{
+    min-height: 550px;
+    background-image: url(pep.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section2{
+    background-color: rgb(109, 47, 5);
+    color: white;
+    padding: 55px;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+    line-height: 1.6;
+}
+h1{
+    text-align: center;
+   font-size: 40px;
+}
