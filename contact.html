@@ -9,7 +9,16 @@
     <title>Submit form</title>
 </head>
 <body>
-    <div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#">Products</a>
+            <a class="nav-link" href="#">Regions</a>
+            <a class="nav-link" href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
         <form action= "mailto:trauwaenroeland@gmail.com?subject=myform_submission" enctype="text/plain" onsubmit="location.href='thankyou.html';" >
         <label for="name">name</label>
         <input type="text" id="name" name="name" placeholder="name please" required>
@@ -21,7 +30,7 @@
         </form>
    
     </div>
-    <div>
+    <div class="container">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-instagram"></a>
         <i class="fa fa-phone" style="font-size:48px;color:red"></i>
