@@ -11,7 +11,7 @@ div {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    width: 60%;
+    width: 50%;
   }
 
 
@@ -36,6 +36,25 @@ div {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
   }
 
   
