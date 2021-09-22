@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Form-1</title>
+    <title>Form</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form-styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
@@ -25,24 +25,34 @@
               </div>
           </div>
       </div>
-  </nav>
+    </nav>
     <div>
-      <form>
-        <div class="form-group">
+
+    </div>
+      <div>
+        <form action="thankyou.html" method="post" enctype="text/plain">
+          <div class="form-group">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" required>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+          </div>
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="exampleFormControlTextarea1">Have a question?</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div>
+          <form action="thankyou.html">
+            <button type="submit" class="btn btn-primary">Submit</button>
+         </form>
         </div>
-        <a href="sign-in.html" class="btn btn-info" role="button">Sign In</a>
-        <a href="form-2.html" class="btn btn-info" role="button">Sign Up</a>
       </form>
     </div>
         
