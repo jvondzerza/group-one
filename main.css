@@ -32,11 +32,8 @@
 .line_box {
     padding-bottom: 50px;
 }
-.img_box {
-    padding
-}
 table {
-    width: 50%;
+    width: 50%;    
 }
 th {
     text-align: center;
@@ -52,6 +49,13 @@ a.button {
     text-decoration: none;
     color: initial;
 }
-.button.box {
-    float: right;
+.a_button {
+    color: white;
+    text-decoration: none;
+}
+.button_box {
+    padding-top: 20px;
+}
+tr {
+    border-bottom: 1px solid black;
 }
