@@ -2,56 +2,9 @@
     background-color: #DBFE7A;
 }
 
-.aligner{
-   display:flex;
-    justify-content: center;
-}
-
-body {
-    background-image: url("https://www.thespruce.com/thmb/u858u7wWI6zcc8WjAzHcAVoISpA=/1777x1333/smart/filters:no_upscale()/choosing-and-growing-hot-peppers-1403380-04-681055e56abb464ead96ee4c333cda4f.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax {
-    height: 700px;
-    background-image: url("HotBoss-logos_transparent.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-nav {
-    background-color: darkred;
-}
-.nav-parallax {
-    top: 0;
-    position: fixed;
-    width: 100%;
-    height: 50px;
-}
-article {
-    height: 500px;
-    width: 50%;
-    margin: 0 auto 50px;
-    padding: 20px;
-    background-color: wheat;
-    float: left;
-    color: darkred;
-    text-align: center;
-}
-#car {
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    float: right;
-}
-.car-height {
-    height: 500px;
-}
-.img-dimensions {
+.aligner {
     height: inherit;
-    width: 100%;
-    position: absolute;
+    width: 70%;
+    display: block;
+    margin: auto;
 }
