@@ -1,10 +1,21 @@
-.bgcolor{
-    background-color: #DBFE7A;
-}
 
 .aligner {
     height: inherit;
-    width: 70%;
+    width: 60%;
     display: block;
     margin: auto;
 }
+
+#pad1{
+    padding-top: 150px;
+}
+#pad2{
+    padding-top: 22px;
+}
+
+.center{
+    display: block;
+    margin: auto;
+}
+
+
