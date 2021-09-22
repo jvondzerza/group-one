@@ -25,15 +25,13 @@
     width: 100%;
     position: absolute;
 }
-.pepper {
-    width:100px;
-    height: 400px
-    float: left;    
+.first_box {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 1500px;
-    height: 1000px;
-    background-color: black;
+.line_box {
+    padding-bottom: 50px;
+}
+.img_box {
+    padding
 }
