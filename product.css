@@ -30,6 +30,9 @@ nav {
     width: 200px;
     height: 200px;
 }
+.nav-text-color {
+    color: #e6e6e6;
+}
 .first_box {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -55,4 +58,14 @@ th {
 }
 tr {
     border-bottom: 1px solid black;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+.wtv {
+    background-color: floralwhite;
+    color: #490000;
 }
