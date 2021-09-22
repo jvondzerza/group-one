@@ -35,3 +35,12 @@
 .img_box {
     padding
 }
+table {
+    width: 50%;
+}
+th {
+    text-align: center;
+}
+.price {
+    text-align: center;
+}
