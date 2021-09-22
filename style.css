@@ -6,12 +6,12 @@
     margin: auto;
 }
 
-#pad1{
-    padding-top: 150px;
+.smaller{
+    height: inherit;
+    width: 90%;
+    display: block;
 }
-#pad2{
-    padding-top: 22px;
-}
+
 
 .center{
     display: block;
