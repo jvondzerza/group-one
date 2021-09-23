@@ -5,9 +5,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-header {
-    overflow: hidden;
-}
 .navbar-nav > a{
     margin-left: 100px;
     margin-right: 100px;
