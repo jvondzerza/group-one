@@ -10,8 +10,6 @@ body {
     margin-right: 100px;
 }
 .parallax {
-    height: 700px;
-    background-image: url("../img/hot-boss-transparent-black.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +32,7 @@ nav {
     color: #e6e6e6;
 }
 .first_box {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .line_box {
