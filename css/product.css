@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg-white.jpg");
+    background-image: url("../img/bg-white.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body {
 }
 .parallax {
     height: 700px;
-    background-image: url("hot-boss-transparent-black.png");
+    background-image: url("../img/hot-boss-transparent-black.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
