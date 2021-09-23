@@ -1,0 +1,69 @@
+body {
+    background-image: url("../img/bg-white.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-nav > a{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.parallax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: darkred;
+}
+.nav-parallax {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+#nav-img {
+    padding-top: 5px;
+    width: 200px;
+    height: 200px;
+}
+.nav-text-color {
+    color: #e6e6e6;
+}
+.first_box {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.line_box {
+    padding-bottom: 50px;
+}
+table {
+    width: 50%;    
+}
+th {
+    text-align: center;
+}
+.price {
+    text-align: center;
+}
+.a_button {
+    color: white;
+    text-decoration: none;
+}
+.button_box {
+    padding-top: 20px;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+.wtv {
+    background-color: floralwhite;
+    color: #490000;
+}
