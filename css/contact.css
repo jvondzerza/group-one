@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/background-contact.jpg);
+    background-image: url(../img/background-contact.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,6 +91,7 @@ form {
 
  a {
    margin-left: 10px;
+   color: black;
  }
 
  h1, h2, h3, h4, h5, h6 {
