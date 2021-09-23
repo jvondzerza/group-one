@@ -45,11 +45,7 @@ body{
     transition:.5s;
 }
 
-.underline:hover:after {
-    width: 80%;
-    background: darkorange;
-}
-  
+
   
 
 .navbar-nav > a{
