@@ -72,7 +72,105 @@ th {
     text-align: center;
 }
 .a_button {
-    color: white;
+    color: whia:hover {
+        color: floralwhite!important;
+    }
+    .nav-text-color {
+        color: floralwhite;
+    }
+    .underline {
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .underline:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        bottom: 2px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 50%;
+        background: papayawhip;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+    
+    .underline:hover:after {
+        width: 80%;
+        background: darkorange;
+    }
+    .first_box {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .line_box {
+        padding-bottom: 50px;
+    }
+    table {
+        width: 50%;    
+    }a:hover {
+        color: floralwhite!important;
+    }
+    .nav-text-color {
+        color: floralwhite;
+    }
+    .underline {
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .underline:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        bottom: 2px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 50%;
+        background: papayawhip;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+    
+    .underline:hover:after {
+        width: 80%;
+        background: darkorange;
+    }
+    .first_box {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .line_box {
+        padding-bottom: 50px;
+    }
+    table {
+        width: 50%;    
+    }
+    th {
+        text-align: center;
+    }
+    .price {
+        text-align: center;
+    }
+    .a_button {
+        color: whi
+    th {
+        text-align: center;
+    }
+    .price {
+        text-align: center;
+    }
+    .a_button {
+        color: white;
     text-decoration: none;
 }
 .button_box {
