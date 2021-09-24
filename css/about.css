@@ -1,10 +1,10 @@
-body{
+body
+{
     margin: 0;
     padding: 0;
-    
+  
 
 }
-
 .navbar {
     position: fixed!important;
     display: flex;
@@ -13,14 +13,7 @@ body{
    
     font-weight:bold;
   
-   
-  
-
   }
-
-
-
-  
 
   .navbar-nav > a{
     margin-left: 150px;
@@ -93,7 +86,7 @@ a:hover {
     left: 0;
     right: 0;
     width: 50%;
-    background: papayawhip;
+    background: rgb(255, 252, 247);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
