@@ -1,10 +1,10 @@
-body{
+body
+{
     margin: 0;
     padding: 0;
-    
+  
 
 }
-
 .navbar {
     position: fixed!important;
     display: flex;
@@ -13,22 +13,13 @@ body{
    
     font-weight:bold;
   
-   
-  
-
   }
-
-
-
-  
 
   .navbar-nav > a{
 
     margin-left: 150px;
     margin-right: 60px;
-=======
-    margin-left: 100px;
-    margin-right: 100px;
+
 }
 .parallax {
     height: 700px;
@@ -47,8 +38,7 @@ nav {
     top: 0;
     position: fixed;
     width: 100%;
- zain
-=======
+ 
     height: 50px;
 }
 #nav-img {
@@ -108,7 +98,7 @@ a:hover {
     left: 0;
     right: 0;
     width: 50%;
-    background: papayawhip;
+    background: rgb(255, 252, 247);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
