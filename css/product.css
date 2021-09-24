@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/bg-white.jpg");
+    /*background-image: url("../img/bg-white.jpg");*/    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,10 +96,7 @@ th {
 .price {
     text-align: center;
 }
-.a_button {
-    color: whia:hover {
-        color: floralwhite!important;
-    }
+
     .nav-text-color {
         color: floralwhite;
     }
@@ -186,15 +183,14 @@ th {
     .price {
         text-align: center;
     }
-    .a_button {
-        color: whi
-    th {
-        text-align: center;
-    }
-    .price {
-        text-align: center;
-    }
-    .a_button {
+    
+th {
+    text-align: center;
+}
+.price {
+    text-align: center;
+}
+.a_button {
         color: white;
     text-decoration: none;
 }
@@ -211,6 +207,6 @@ p, div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 .wtv {
-    background-color: floralwhite;
+    background: floralwhite!important;
     color: #490000;
 }
