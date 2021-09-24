@@ -5,7 +5,7 @@ HotBoss's logo:
 
 ## Introduction 
 
-This project called HotBoss was made to present a shop that sell chili pepper seed for customers looking to cultivate pepper plants. The project is composed by 6 HTML files (index, about, product, regions, contact and thank-you), a "css" folder in which there are 6 CSS files (index, about, product, regions, contact and thank-you) and an "img" folder containing all the image files used in the site's current build. 
+The HotBoss project was created to demo a webshop that sells chili pepper seeds to customers looking to cultivate pepper plants. The project is composed by 6 HTML files (index, about, product, regions, contact and thank-you), a "css" folder in which there are 6 CSS files (index, about, product, regions, contact and thank-you) and an "img" folder containing all the image files used in the site's current build. 
 
 ## About the HTML files 
 1. The index page serves as the landing page for our website. 
