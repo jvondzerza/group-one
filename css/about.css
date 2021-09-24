@@ -237,4 +237,12 @@ h1{
         width: 37px;
            animation-delay: 8s
        }
-      
+       .col-sm-4 {
+           position: revert !important;
+       }
+    .col-sm-8{
+        position: revert !important;
+    }
+    .col-lg-4 col-md-6{
+        position: revert !important; 
+    }
