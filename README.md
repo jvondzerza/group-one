@@ -1,4 +1,3 @@
-# group-one
 # HotBoss page
 HotBoss's logo:
 
@@ -25,6 +24,8 @@ This project called HotBoss was made to present a shop that sell chili pepper’
 
  - We used the Bootstrap 5 to make the project’s style. 
 
+## Link of the project
+[HotBoss](https://jvondzerza.github.io/hot-boss/)
 ## This project was made by: 
 
 [Jörg von Dzerzawa](https://github.com/jvondzerza) 
