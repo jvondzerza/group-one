@@ -23,8 +23,20 @@ body{
   
 
   .navbar-nav > a{
+
     margin-left: 150px;
     margin-right: 60px;
+=======
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.parallax {
+    height: 700px;
+    background-image: url("../img/hot-boss-transparent-black.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -35,6 +47,9 @@ nav {
     top: 0;
     position: fixed;
     width: 100%;
+ zain
+=======
+    height: 50px;
 }
 #nav-img {
     margin-top: -50px;
@@ -73,6 +88,39 @@ nav {
     0% {opacity:0;}
     100% {opacity:1;}
 }
+a:hover {
+    color: floralwhite!important;
+}
+.nav-text-color {
+    color: floralwhite;
+}
+.underline {
+    text-decoration: none;
+    position: relative;
+}
+
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 2px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    background: papayawhip;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.underline:hover:after {
+    width: 80%;
+    background: darkorange;
+}
+
 a:hover {
     color: floralwhite!important;
 }
